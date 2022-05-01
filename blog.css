@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+nav {
+    background: url(../akatsuki/assets/bg4.jpg);
+    background-position: 100%;
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.B {
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(235, 138, 19);
+    font-size: 20vh;
+}
+
+.B:hover {
+    border-bottom: 5px dotted #eb7a10;
+}
+
+.logs {
+    color: yellow;
+    font-size: 10vh;
+}
+
+.featured h1 {
+    font-size: 8vh;
+    margin: 5vh 0;
+}
+img {
+    width: 200px;
+    height: 150px;
+}
+
+.blogs {
+    padding: 40px;
+}
+
+.right {
+    /* background-color: red; */
+    margin: 2%;
+    display: flex;
+}
+
+.imgBlock {
+    padding: 0 50px;
+}
+
+.imgBlock img {
+    border: 2px solid black;
+}
+
+.imgBlock img:hover {
+    transform: translateY("45deg");
+    padding: 2px;
+}
+
+.blogAbout {
+    cursor: pointer;
+    font-family: 'cursive';
+    padding: 20px 0px;
+}
+
+.btn {
+    cursor: pointer;
+    padding: 5px 10px;
+    background-color: #5b5be9;
+    font-weight: bold;
+    color: white;
+    margin-top: 58px;
+    border: 2px solid white;
+}
+
+.btn:hover {
+    background-color: hsl(240, 78%, 56%);
+    border: 2px solid black;
+}
+footer {
+    margin-top: 20vh;
+    text-align: center;
+    color: white;
+    background-color: black;
+    min-height: max-content;
+    padding: 5%
+}
+
+.socialsContainer {
+    display: block;
+    margin: 2vh;
+}
+
+.socials {
+    margin: auto;
+    width: 5vw;
+    height: 5vh;
+    filter: invert(1);
+}
